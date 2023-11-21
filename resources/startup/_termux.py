@@ -2,9 +2,9 @@
 # Ultroid - UserBot
 # Copyright (C) 2021-2022 TeamUltroid
 #
-# This file is a part of < https://github.com/TeamUltroid/Ultroid/ >
+# This file is a part of < https://github.com/deadnote0009/Ultroidbot/ >
 # Please read the GNU Affero General Public License in
-# <https://www.github.com/TeamUltroid/Ultroid/blob/main/LICENSE/>.
+# <https://github.com/deadnote0009/Ultroidbot/blob/main/LICENSE/>.
 
 from os import system, path
 from time import sleep
@@ -253,9 +253,9 @@ sleep(0.2)
 print(f"Use 'bash startup' to try running Ultroid.{Fore.RESET}")
 sleep(0.5)
 print(
-    "\nYou can head over to @UltroidSupportChat, if you get stuck somewhere, and need help."
+    "\nYou can head over to @MujibGram, if you get stuck somewhere, and need help."
 )
 sleep(0.5)
-print("\nMade with ❤️ by @TeamUltroid...")
+print("\nMade with ❤️ by @MujibGram...")
 
 system("pip3 uninstall -q colorama -y")

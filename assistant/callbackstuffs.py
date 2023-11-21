@@ -1,9 +1,9 @@
 # Ultroid - UserBot
 # Copyright (C) 2021-2022 TeamUltroid
 #
-# This file is a part of < https://github.com/TeamUltroid/Ultroid/ >
+# This file is a part of < https://github.com/deadnote0009/Ultroidbot/ >
 # PLease read the GNU Affero General Public License in
-# <https://www.github.com/TeamUltroid/Ultroid/blob/main/LICENSE/>.
+# <https://github.com/deadnote0009/Ultroidbot/blob/main/LICENSE/>.
 
 
 import asyncio
@@ -50,7 +50,7 @@ def text_to_url(event):
 
 _buttons = {
     "otvars": {
-        "text": "Other Variables to set for @TeamUltroid:",
+        "text": "Other Variables to set for @MujibGram:",
         "buttons": [
             [
                 Button.inline("Tᴀɢ Lᴏɢɢᴇʀ", data="taglog"),
@@ -348,7 +348,7 @@ async def changes(okk):
                 language="md",
             )
             return await okk.edit(
-                f"**• Ultroid Userbot •**{cli}", file=img, buttons=button
+                f"**• Userbot •**{cli}", file=img, buttons=button
             )
         except Exception as er:
             LOGS.exception(er)

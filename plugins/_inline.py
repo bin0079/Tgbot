@@ -1,9 +1,9 @@
 # Ultroid - UserBot
 # Copyright (C) 2021-2022 TeamUltroid
 #
-# This file is a part of < https://github.com/TeamUltroid/Ultroid/ >
+# This file is a part of < https://github.com/deadnote0009/Ultroidbot/ >
 # PLease read the GNU Affero General Public License in
-# <https://www.github.com/TeamUltroid/Ultroid/blob/main/LICENSE/>.
+# <https://github.com/deadnote0009/Ultroidbot/blob/main/LICENSE/>.
 
 import re
 import time
@@ -61,7 +61,7 @@ SUP_BUTTONS = [
 @in_pattern(owner=True, func=lambda x: not x.text)
 async def inline_alive(o):
     TLINK = inline_pic() or "https://graph.org/file/74d6259983e0642923fdb.jpg"
-    MSG = "• **Ultroid Userbot •**"
+    MSG = "• **Userbot •**"
     WEB0 = InputWebDocument(
         "https://graph.org/file/acd4f5d61369f74c5e7a7.jpg", 0, "image/jpg", []
     )
@@ -71,7 +71,7 @@ async def inline_alive(o):
             text=MSG,
             include_media=True,
             buttons=SUP_BUTTONS,
-            title="Ultroid Userbot",
+            title="Userbot",
             description="Userbot | Telethon",
             url=TLINK,
             thumb=WEB0,
@@ -82,7 +82,7 @@ async def inline_alive(o):
         RES,
         private=True,
         cache_time=300,
-        switch_pm="👥 ULTROID PORTAL",
+        switch_pm="👥 USERBOT PORTAL",
         switch_pm_param="start",
     )
 
@@ -107,7 +107,7 @@ async def inline_handler(event):
         )
     else:
         result = await event.builder.article(
-            title="Ultroid Help Menu", text=text, buttons=_main_help_menu
+            title="USERBOT Help Menu", text=text, buttons=_main_help_menu
         )
     await event.answer([result], private=True, cache_time=300, gallery=True)
 
@@ -195,7 +195,7 @@ async def uptd_plugin(event):
                 help_ += "\n"
     if not help_:
         help_ = f"{file} has no Detailed Help!"
-    help_ += "\n© @TeamUltroid"
+    help_ += "\n© @MujibGram"
     buttons = []
     if inline_pic():
         data = f"sndplug_{key}_{file}"
@@ -400,7 +400,7 @@ async def ibuild(e):
                             _pic,
                             title="Ultroid Op",
                             text=txt,
-                            description="@TeamUltroid",
+                            description="@MujibGram",
                             buttons=btn,
                             link_preview=False,
                         )
@@ -416,7 +416,7 @@ async def ibuild(e):
                         title="Ultroid Op",
                         type=_type,
                         text=txt,
-                        description="@TeamUltroid",
+                        description="@MujibGram",
                         include_media=include_media,
                         buttons=btn,
                         thumb=cont,

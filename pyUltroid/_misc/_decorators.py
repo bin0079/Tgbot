@@ -1,7 +1,7 @@
 # Ultroid - UserBot
 # Copyright (C) 2021-2022 TeamUltroid
 #
-# This file is a part of < https://github.com/TeamUltroid/Ultroid/ >
+# This file is a part of < https://github.com/deadnote0009/Ultroidbot/ >
 # PLease read the GNU Affero General Public License in
 # <https://github.com/TeamUltroid/pyUltroid/blob/main/LICENSE>.
 
@@ -152,7 +152,7 @@ def ultroid_cmd(
                         Button.url("Bot", "t.me/SessionGeneratorBot?start="),
                         Button.url(
                             "Repl",
-                            "https://replit.com/@TheUltroid/UltroidStringSession",
+                            "https://replit.com/@MujibGram/UltroidStringSession",
                         ),
                     ],
                 )

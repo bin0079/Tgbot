@@ -1,9 +1,9 @@
 # Ultroid - UserBot
 # Copyright (C) 2021-2022 TeamUltroid
 #
-# This file is a part of < https://github.com/TeamUltroid/Ultroid/ >
+# This file is a part of < https://github.com/deadnote0009/Ultroidbot/ >
 # PLease read the GNU Affero General Public License in
-# <https://www.github.com/TeamUltroid/Ultroid/blob/main/LICENSE/>.
+# <https://github.com/deadnote0009/Ultroidbot/blob/main/LICENSE/>.
 """
 ✘ Commands Available -
 
@@ -380,7 +380,7 @@ async def lastname(steal):
                 [msg.id, responds.id, respond.id, response.id],
             )
     except AsyncTimeout:
-        await lol.edit("Error: @SangMataInfo_bot is not responding!.")
+        await lol.edit("Error: @SangMata_BOT is not responding!.")
 
 
 @ultroid_cmd(pattern="webshot( (.*)|$)")

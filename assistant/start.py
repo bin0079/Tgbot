@@ -1,9 +1,9 @@
 # Ultroid - UserBot
 # Copyright (C) 2021-2022 TeamUltroid
 #
-# This file is a part of < https://github.com/TeamUltroid/Ultroid/ >
+# This file is a part of < https://github.com/deadnote0009/Ultroidbot/ >
 # PLease read the GNU Affero General Public License in
-# <https://www.github.com/TeamUltroid/Ultroid/blob/main/LICENSE/>.
+# <https://github.com/deadnote0009/Ultroidbot/blob/main/LICENSE/>.
 
 from datetime import datetime
 
@@ -29,7 +29,7 @@ if Owner_info_msg is None:
 
 **Message Forwards** - {udB.get_key("PMBOT")}
 
-**Ultroid [v{ultroid_version}](https://github.com/TeamUltroid/Ultroid), powered by @TeamUltroid**
+**Ultroid [v{ultroid_version}](https://github.com/deadnote0009/Ultroidbot), powered by @MujibGram**
 """
 
 
@@ -68,7 +68,7 @@ async def own(event):
         mention=event.sender.mention, me=inline_mention(ultroid_bot.me)
     )
     if custom_info:
-        msg += "\n\n• Powered by **@TeamUltroid**"
+        msg += "\n\n• Powered by **@MujibGram**"
     await event.edit(
         msg,
         buttons=[Button.inline("Close", data="closeit")],

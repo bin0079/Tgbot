@@ -1,7 +1,7 @@
 # Ultroid - UserBot
 # Copyright (C) 2021-2022 TeamUltroid
 #
-# This file is a part of < https://github.com/TeamUltroid/Ultroid/ >
+# This file is a part of < https://github.com/deadnote0009/Ultroidbot/ >
 # PLease read the GNU Affero General Public License in
 # <https://github.com/TeamUltroid/pyUltroid/blob/main/LICENSE>.
 
@@ -167,7 +167,7 @@ if run_as_module:
             output = "**Plugin** - `{}`\n".format(plug)
             for i in HELP[plug]:
                 output += i
-            output += "\n© @TeamUltroid"
+            output += "\n© @MujibGram"
             await eod(ok, f"✓ `Ultroid - Installed`: `{plug}` ✓\n\n{output}")
         elif plug in CMD_HELP:
             output = f"Plugin Name-{plug}\n\n✘ Commands Available-\n\n"

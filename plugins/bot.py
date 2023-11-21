@@ -1,9 +1,9 @@
 # Ultroid - UserBot
 # Copyright (C) 2021-2022 TeamUltroid
 #
-# This file is a part of < https://github.com/TeamUltroid/Ultroid/ >
+# This file is a part of < https://github.com/deadnote0009/Ultroidbot/ >
 # PLease read the GNU Affero General Public License in
-# <https://www.github.com/TeamUltroid/Ultroid/blob/main/LICENSE/>.
+# <https://github.com/deadnote0009/Ultroidbot/blob/main/LICENSE/>.
 
 from . import get_help
 
@@ -70,8 +70,8 @@ def ULTPIC():
 
 buttons = [
     [
-        Button.url(get_string("bot_3"), "https://github.com/nahid-nil/Ultroidbot/tree/main"),
-        Button.url(get_string("bot_4"), "t.me/UltroidSupportChat"),
+        Button.url(get_string("bot_3"), "https://github.com/deadnote0009/Ultroidbot//tree/main"),
+        Button.url(get_string("bot_4"), "t.me/MujibGram"),
     ]
 ]
 
@@ -289,7 +289,7 @@ async def inline_alive(ult):
                     await builder.document(
                         pic,
                         title="Inline Alive",
-                        description="@TeamUltroid",
+                        description="@MujibGram",
                         parse_mode="html",
                         buttons=buttons,
                     )
@@ -335,7 +335,7 @@ async def _(e):
         )
     else:
         await xx.edit(
-            f'<code>Your BOT is </code><strong>up-to-date</strong><code> with </code><strong><a href="https://github.com/nahid-nil/Ultroidbot/tree/main/{branch}">[{branch}]</a></strong>',
+            f'<code>Your BOT is </code><strong>up-to-date</strong><code> with </code><strong><a href="https://github.com/deadnote0009/Ultroidbot//tree/main/{branch}">[{branch}]</a></strong>',
             parse_mode="html",
             link_preview=False,
         )

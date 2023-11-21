@@ -2,9 +2,9 @@
 # Ultroid - UserBot
 # Copyright (C) 2021-2022 TeamUltroid
 #
-# This file is a part of < https://github.com/TeamUltroid/Ultroid/ >
+# This file is a part of < https://github.com/deadnote0009/Ultroidbot/ >
 # PLease read the GNU Affero General Public License in
-# <https://www.github.com/TeamUltroid/Ultroid/blob/main/LICENSE/>.
+# <https://github.com/deadnote0009/Ultroidbot/blob/main/LICENSE/>.
 
 import os
 from time import sleep
@@ -109,7 +109,7 @@ def telethon_session():
     except Exception as er:
         print("Unexpected Error Occurred while Creating Session")
         print(er)
-        print("If you think It as a Bug, Report to @UltroidSupportChat.\n\n")
+        print("If you think It as a Bug, Report to @MujibGram.\n\n")
 
 
 def pyro_session():
@@ -135,7 +135,7 @@ def pyro_session():
         ss = pyro.export_session_string()
         pyro.send_message(
             "me",
-            f"`{ss}`\n\nAbove is your Pyrogram Session String for @TheUltroid. **DO NOT SHARE it.**",
+            f"`{ss}`\n\nAbove is your Pyrogram Session String for @MujibGram. **DO NOT SHARE it.**",
         )
         print("Session has been sent to your saved messages!")
         exit(0)
